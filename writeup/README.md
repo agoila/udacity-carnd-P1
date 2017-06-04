@@ -13,11 +13,24 @@ The goals / steps of this project are the following:
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### The Pipeline
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+There were 5 broad steps to my pipeline. For every input image:
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
+* Convert to **grayscale**.
+* Apply **Gaussian smoothing/blurring**, using a 5x5 kernel.
+* Run **Canny Edge Detection**.
+* Apply **Region Masking**.
+* Run **Hough Transform**.
+
+In order to draw a single line on the left and right lanes, I modified the draw_lines() function using the following method:
+
+* Run a for-loop over the output of the Hough Lines function (**cv2.HoughLinesP()**) to read in the points (x,y).
+* Sort the points into left and right x,y lists based on a pre-defined range of slopes (slope_l, slope_r).
+* Average out the x and y points, and calculate the mean slopes. 
+* Calculate the y-intercepts from the means calculated above, using equation: **b = y - mx**
+* Using the ROI y-coordinates as reference, calculate the corresponding x-coordinates with intercepts and mean slopes calculated before.
+* With the new (x,y) points for left and right side, draw the respective lines using **cv2.line()**.
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
