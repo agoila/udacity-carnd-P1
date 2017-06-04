@@ -60,7 +60,6 @@ Following are the images showing the sequence of steps followed in the pipeline:
 
 ### Potential shortcomings
 
-
 One potential shortcoming would be what would happen when ... 
 
 Another shortcoming could be ...
