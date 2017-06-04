@@ -7,7 +7,12 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ../examples/grayscale.jpg "Grayscale"
+[image1]: ../test_images/solidWhiteCurve.jpg "Original"
+[image2]: ../examples/grayscale.jpg "Grayscale"
+[image3]: ../test_images_canny_output/solidWhiteCurve.jpg "Canny detected lines"
+[image4]: ../test_images_masked_output/solidWhiteCurve.jpg "Region Masking"
+[image5]: ../test_images_hough_output/solidWhiteCurve.jpg "Hough Transform"
+[image6]: ../test_images_output/p1_examples/solidWhiteCurve.jpg "Final image"
 
 ---
 
@@ -38,22 +43,19 @@ Following are the images showing the sequence of steps followed in the pipeline:
 ![alt text][image1]
 
 #### Grayscale conversion
-![alt text][image1]
-
-#### Gaussian smoothing (blurring)
-![alt text][image1]
+![alt text][image2]
 
 #### Canny Edge Detection
-![alt text][image1]
+![alt text][image3]
 
 #### Region Masking
-![alt text][image1]
+![alt text][image4]
 
 #### Hough Line Transform
-![alt text][image1]
+![alt text][image5]
 
 #### Final processed image
-![alt text][image1]
+![alt text][image6]
 
 
 ### Potential shortcomings
