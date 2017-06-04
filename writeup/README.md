@@ -21,6 +21,8 @@ There were 5 broad steps to my pipeline. For every input image:
 * Apply **Region Masking**.
 * Run **Hough Line Transform**.
 
+### The draw_lines() method
+
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function using the following method:
 
 * Run a for-loop over the output of the Hough Lines function (**cv2.HoughLinesP()**) to read in the points (x,y).
@@ -54,7 +56,7 @@ Following are the images showing the sequence of steps followed in the pipeline:
 ![alt text][image1]
 
 
-### 2. Identify potential shortcomings with your current pipeline
+### Potential shortcomings
 
 
 One potential shortcoming would be what would happen when ... 
@@ -62,7 +64,7 @@ One potential shortcoming would be what would happen when ...
 Another shortcoming could be ...
 
 
-### 3. Suggest possible improvements to your pipeline
+### Possible further improvements
 
 A possible improvement would be to ...
 
