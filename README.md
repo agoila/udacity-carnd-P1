@@ -7,7 +7,9 @@ The goals / steps of this project are the following:
 
 Here's where to begin:
 
-* Set up the environment and test: [here](https://github.com/agoila/udacity-carnd-P1/tree/master/starter-kit) and [here](https://github.com/agoila/udacity-carnd-P1/tree/master/starter-kit-test).
+* Read the original project README [here](https://github.com/agoila/udacity-carnd-P1/tree/master/readme).
+
+* Environment: [setup](https://github.com/agoila/udacity-carnd-P1/tree/master/starter-kit) and [test](https://github.com/agoila/udacity-carnd-P1/tree/master/starter-kit-test).
 
 * [Project code](https://github.com/agoila/udacity-carnd-P1/blob/master/P1.ipynb)
 
