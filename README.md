@@ -8,14 +8,9 @@ The goals / steps of this project are the following:
 Here's where to begin:
 
 * Read the original project README [here](https://github.com/agoila/udacity-carnd-P1/tree/master/readme).
-
 * Environment: [setup](https://github.com/agoila/udacity-carnd-P1/tree/master/starter-kit) and [test](https://github.com/agoila/udacity-carnd-P1/tree/master/starter-kit-test).
-
 * [Project code](https://github.com/agoila/udacity-carnd-P1/blob/master/P1.ipynb)
-
 * Writeup is available [here](https://github.com/agoila/udacity-carnd-P1/tree/master/writeup).
-
-* [This](https://github.com/agoila/udacity-carnd-P1/blob/master/Resize%20Image.ipynb) is a script to resize and save an image. 
 
 All the test_images directories refer to the outputs saved during various stages of image processing. [This](https://github.com/agoila/udacity-carnd-P1/tree/master/test_images) is the input image directory, [this](https://github.com/agoila/udacity-carnd-P1/tree/master/test_images_output) is the processed image output directory. 
 
