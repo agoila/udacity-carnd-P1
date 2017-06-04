@@ -27,7 +27,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 * Sort the points into left and right x,y lists based on a pre-defined range of slopes (slope_l, slope_r).
 * Average out the x and y points, and calculate the mean slopes. 
 * Calculate the y-intercepts from the means calculated above, using equation: **b = y - mx**
-* Using the ROI y-coordinates as reference, calculate the corresponding x-coordinates with intercepts and mean slopes calculated before.
+* With the ROI y-coordinates as reference, calculate the corresponding x-coordinates using the intercepts and mean slopes calculated before (** x = (y - b) / m **)
 * With the new (x,y) points for left and right side, draw the respective lines using **cv2.line()**.
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
