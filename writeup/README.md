@@ -11,8 +11,6 @@ The goals / steps of this project are the following:
 
 ---
 
-### Reflection
-
 ### The Pipeline
 
 There were 5 broad steps to my pipeline. For every input image:
