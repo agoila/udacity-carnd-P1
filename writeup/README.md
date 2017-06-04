@@ -19,7 +19,7 @@ There were 5 broad steps to my pipeline. For every input image:
 * Apply **Gaussian smoothing/blurring**, using a 5x5 kernel.
 * Run **Canny Edge Detection**.
 * Apply **Region Masking**.
-* Run **Hough Transform**.
+* Run **Hough Line Transform**.
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function using the following method:
 
@@ -30,8 +30,27 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 * With the ROI y-coordinates as reference, calculate the corresponding x-coordinates using the intercepts and mean slopes calculated before (**x = (y - b) / m**)
 * With the new (x,y) points for left and right side, draw the respective lines using **cv2.line()**.
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
+Following are the images showing the sequence of steps followed in the pipeline: 
 
+#### Original image
+![alt text][image1]
+
+#### Grayscale conversion
+![alt text][image1]
+
+#### Gaussian smoothing (blurring)
+![alt text][image1]
+
+#### Canny Edge Detection
+![alt text][image1]
+
+#### Region Masking
+![alt text][image1]
+
+#### Hough Line Transform
+![alt text][image1]
+
+#### Final processed image
 ![alt text][image1]
 
 
