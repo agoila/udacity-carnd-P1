@@ -60,14 +60,16 @@ Following are the images showing the sequence of steps followed in the pipeline:
 
 ### Potential shortcomings
 
-One potential shortcoming would be what would happen when ... 
+One potential shortcoming is that the current algorithm can only detect straight lane lines. Instead of a linear fit, we'd need to use a polynomial fit to incorporate the curvature of the lane lines. 
 
-Another shortcoming could be ...
+Another shortcoming is that the ROI is pre-defined. For a different sized image (such as the challenge), this would need to be hardcoded again. 
+
+Also, if a vehicle crosses the lane in front of the car and comes anywhere close to the ROI region, the canny edge detection/region masking would potentially fail to isolate those lines from being detected. 
 
 
 ### Possible further improvements
 
-A possible improvement would be to ..
+A possible improvement or the next step is to try other techniques (such as HSV/HSL conversion etc.) to make the lane lines more robust. 
 
-Another potential improvement could be to ...
+The algorithm was not run on the challenge video. A potential improvement could be to adapt this to that challenge using advanced line fitting and color selection techniques, since it has a variety of road texture/shadows throughout the video.
 
