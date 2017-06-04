@@ -7,12 +7,12 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ../test_images/solidWhiteCurve.jpg "Original"
+[image1]: ../resized_images/solidWhiteCurve1.jpg "Original"
 [image2]: ../examples/grayscale.jpg "Grayscale"
-[image3]: ../test_images_canny_output/solidWhiteCurve.jpg "Canny detected lines"
-[image4]: ../test_images_masked_output/solidWhiteCurve.jpg "Region Masking"
-[image5]: ../test_images_hough_output/solidWhiteCurve.jpg "Hough Transform"
-[image6]: ../test_images_output/p1_examples/solidWhiteCurve.jpg "Final image"
+[image3]: ../resized_images/solidWhiteCurve2.jpg "Canny detected lines"
+[image4]: ../resized_images/solidWhiteCurve4.jpg "Region Masking"
+[image5]: ../resized_images/solidWhiteCurve3.jpg "Hough Transform"
+[image6]: ../resized_images/solidWhiteCurve5.jpg "Final image"
 
 ---
 
